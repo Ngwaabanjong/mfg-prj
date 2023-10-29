@@ -15,6 +15,11 @@ SSH into ec2 server
 - $ chmod 755 script.sh
 - $ ./script.sh
 
+# Check CodeDeploy Agent Status
+Check if the agent is running. 
+- $ sudo service codedeploy-agent status
+- $ sudo service codedeploy-agent start            = use this if agent is not running
+
 # Create EC2 with S3 access
 Pushin Code to S3 is Optional unless you want to store your artifacts in S3
 
