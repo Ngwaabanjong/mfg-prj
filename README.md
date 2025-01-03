@@ -25,7 +25,7 @@ Pushin Code to S3 is Optional unless you want to store your artifacts in S3
 # create a bucket and enable versioning
 - ensure u have configured cli on cmd prompt
 ```
-aws s3 mb s3://aws-devops-edureka --region us-east-1 
+aws s3 mb s3://aws-devops-bucket --region us-east-1 
 aws s3api put-bucket-versioning --bucket aws-devops-edureka --versioning-configuration Status=Enabled --region us-east-1  
 ```
 
